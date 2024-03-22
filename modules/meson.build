@@ -37,6 +37,7 @@ mod_inc_dir = include_directories('..', '../contrib',
 
 # handle more complex C/LUA modules separately
 subdir('bogus_log')
+subdir('testmodule')
 # cookies module is not currently used
 subdir('daf')
 subdir('dnstap')
